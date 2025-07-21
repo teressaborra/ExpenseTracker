@@ -2,7 +2,7 @@ import axios from "axios";
 import { BASE_URL } from "./apiPaths";
 
 const axiosInstance = axios.create({
-  baseURL: "https://expensetracker-1-k6gn.onrender.com",
+  baseURL: "https://expensetracker-1-q770.onrender.com",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
